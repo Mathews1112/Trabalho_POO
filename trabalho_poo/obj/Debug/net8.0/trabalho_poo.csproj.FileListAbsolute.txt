@@ -1,0 +1,14 @@
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\bin\Debug\net8.0\trabalho_poo.exe
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\bin\Debug\net8.0\trabalho_poo.deps.json
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\bin\Debug\net8.0\trabalho_poo.runtimeconfig.json
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\bin\Debug\net8.0\trabalho_poo.dll
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\bin\Debug\net8.0\trabalho_poo.pdb
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.AssemblyInfoInputs.cache
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.AssemblyInfo.cs
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.csproj.CoreCompileInputs.cache
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.dll
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\refint\trabalho_poo.dll
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.pdb
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.genruntimeconfig.cache
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\ref\trabalho_poo.dll
