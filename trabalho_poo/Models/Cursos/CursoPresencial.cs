@@ -8,6 +8,7 @@ namespace trabalho_poo.Models.Cursos
 {
     internal class CursoPresencial : CursoBase
     {
+        public CursoPresencial() : base("", 0) { }
         public CursoPresencial(string nome, int capacidadeMaxima) : base(nome, capacidadeMaxima) { }
 
         public override void ExibirInformações()

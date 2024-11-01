@@ -2,19 +2,26 @@
 
 
 
+using trabalho_poo.Data_arquivo;
 using trabalho_poo.Models;
+using trabalho_poo.Models.Cursos;
 
 public class Program
 {
     public static void Main(string[] args)
     {
+        List<CursoBase> cursos = Data.CarregarDados();
+        foreach (var curso in cursos)
+        {
+          curso.ExibirInformações();
+        }
 
-        Professor professor = new Professor(1,"Teste1","1234","teste@gmail.com","234");
+        //var curso1 = new CursoBase("Filosofia", 20);
+        //var curso2 = new CursoBase("Ingles", 20);
 
-        Aluno aluno = new Aluno(1, "Teste1", "1234", "teste@gmail.com", "234");
+        //cursos.Add(curso1);
+        //cursos.Add(curso2);
 
-        professor.ExibirInformações();
-        Console.WriteLine();
-        aluno.ExibirInformações();
+      Data.SalvarDados(cursos);
     }
 }

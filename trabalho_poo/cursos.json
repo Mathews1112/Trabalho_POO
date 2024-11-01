@@ -1,0 +1,17 @@
+[
+  {
+    "NomeCurso": "Matematica",
+    "CapacidadeMaxima": 20,
+    "Integrantes": []
+  },
+  {
+    "NomeCurso": "Ingles",
+    "CapacidadeMaxima": 20,
+    "Integrantes": []
+  },
+  {
+    "NomeCurso": "Filosofia",
+    "CapacidadeMaxima": 20,
+    "Integrantes": []
+  }
+]

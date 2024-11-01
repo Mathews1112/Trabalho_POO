@@ -11,7 +11,6 @@ namespace trabalho_poo.Models.Cursos
     {
         string NomeCurso { get; }
         int CapacidadeMaxima {  get; }
-        
         void AdicionarPessoa(Pessoa pessoa);
         void RemoverParticipante (Pessoa pessoa);
         void ExibirInformações();

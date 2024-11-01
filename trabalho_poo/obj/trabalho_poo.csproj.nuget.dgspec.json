@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\trabalho_poo.csproj": {}
+    "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\trabalho_poo.csproj": {
+    "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\trabalho_poo.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
         "projectName": "trabalho_poo",
-        "projectPath": "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\trabalho_poo.csproj",
-        "packagesPath": "C:\\Users\\alvim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\obj\\",
+        "projectPath": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
+        "packagesPath": "C:\\Users\\matheus.alvim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alvim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.alvim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,13 +8,13 @@ namespace trabalho_poo.Models.Cursos
 {
     internal class CursoBase : ICursos
     {
-        public string NomeCurso {  get; private set; }
-        public int CapacidadeMaxima { get; private set; }
-        protected List<Pessoa> Integrantes { get; private set; }
+        public string NomeCurso {  get; set; }
+        public int CapacidadeMaxima { get;  set; }
+        public List<Pessoa> Integrantes { get; private set; }
 
-        protected CursoBase(string nome, int capacidadeMaxima) { 
+        public CursoBase(string nomeCurso, int capacidadeMaxima) { 
             
-           NomeCurso = nome;
+           NomeCurso = nomeCurso;
            CapacidadeMaxima = capacidadeMaxima;
            Integrantes = new List<Pessoa>();
         }
