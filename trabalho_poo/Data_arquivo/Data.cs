@@ -10,14 +10,14 @@ namespace trabalho_poo.Data_arquivo
 {
     internal class Data
     {
-        private static readonly string caminhoDoArquivo = "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\cursos.json";
+        private static readonly string caminhoDoArquivo = "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\cursos.json";
 
         public static void SalvarDados(List<CursoBase> cursoBase) { 
             
             var opcoes = new JsonSerializerOptions { WriteIndented = true };
             string json = JsonSerializer.Serialize(cursoBase, opcoes);
             File.WriteAllText(caminhoDoArquivo, json);
-            Console.WriteLine("Deu bom");
+            Console.WriteLine("Dados salvos com sucesso");
 
         }
         public static List<CursoBase> CarregarDados()

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IF2QzUuqK/o=",
+  "dgSpecHash": "6eahpdanoXs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
+  "projectFilePath": "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\trabalho_poo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\matheus.alvim\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+    "C:\\Users\\alvim\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }

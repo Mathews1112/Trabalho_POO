@@ -26,6 +26,15 @@ namespace trabalho_poo.Models.Cursos
         {
             Integrantes.Remove(pessoa);
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is CursoBase curso)
+            {
+                return this.NomeCurso == curso.NomeCurso;
+            }
+            return false;
+        }
         public virtual void ExibirInformações() { }
     }
 }

@@ -30,3 +30,7 @@ C:\Users\matheus.alvim\Desktop\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\refint
 C:\Users\matheus.alvim\Desktop\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.pdb
 C:\Users\matheus.alvim\Desktop\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.genruntimeconfig.cache
 C:\Users\matheus.alvim\Desktop\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\ref\trabalho_poo.dll
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.csproj.AssemblyReference.cache
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho_poo.sourcelink.json
+C:\Users\alvim\source\repos\trabalho_poo\trabalho_poo\obj\Debug\net8.0\trabalho.07340B2C.Up2Date

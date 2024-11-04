@@ -12,18 +12,32 @@ namespace trabalho_poo.Controllers
     internal class CursoController
     {
         private List<CursoBase> cursoBaseList;
-        public CursoController (CursoBase cursoBase)
+        public CursoController ()
         {
-            List<CursoBase> cursos = Data.CarregarDados();
+            cursoBaseList = Data.CarregarDados();
         }
+        public void ExibirListaCursos() {
 
+            foreach (var c in cursoBaseList)
+            {
+                c.ExibirInformações();
+            }
+        }
         public void AdicionarCursoOnline (string nome, int capacidadeMaxima)
         {
             CursoOnline cursoOnline = new CursoOnline(nome, capacidadeMaxima);
+            cursoBaseList.Add(cursoOnline);
+            Data.SalvarDados(cursoBaseList);
         }
         public void AdicionarCursoPresencial(string nome, int capacidadeMaxima)
         {
-            CursoPresencial cursoPresencia = new CursoPresencial(nome, capacidadeMaxima);
+            CursoPresencial cursoPresencial = new CursoPresencial(nome, capacidadeMaxima);
+            cursoBaseList.Add(cursoPresencial);
+            Data.SalvarDados(cursoBaseList);
+        }
+        public void RemoverCurso(CursoBase curso) { 
+            cursoBaseList.Remove(curso);
+            Data.SalvarDados(cursoBaseList);
         }
 
 

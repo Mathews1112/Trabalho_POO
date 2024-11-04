@@ -2,6 +2,7 @@
 
 
 
+using trabalho_poo.Controllers;
 using trabalho_poo.Data_arquivo;
 using trabalho_poo.Models;
 using trabalho_poo.Models.Cursos;
@@ -10,18 +11,21 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        List<CursoBase> cursos = Data.CarregarDados();
-        foreach (var curso in cursos)
-        {
-          curso.ExibirInformações();
-        }
+        //List<CursoBase> cursos = Data.CarregarDados();
+        //foreach (var curso in cursos)
+        //{
+         // curso.ExibirInformações();
+        //}
 
-        //var curso1 = new CursoBase("Filosofia", 20);
-        //var curso2 = new CursoBase("Ingles", 20);
+        CursoController cursoController = new CursoController();
 
-        //cursos.Add(curso1);
-        //cursos.Add(curso2);
+        var curso1 = new CursoBase("Ciencias", 30);
+        var curso2 = new CursoBase("Geografia", 60);
 
-      Data.SalvarDados(cursos);
+        cursoController.RemoverCurso(curso1);
+        cursoController.RemoverCurso(curso2 );
+
+        cursoController.ExibirListaCursos();
     }
+
 }
