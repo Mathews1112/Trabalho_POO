@@ -7,11 +7,29 @@
   {
     "NomeCurso": "Ingles",
     "CapacidadeMaxima": 20,
-    "Integrantes": []
+    "Integrantes": [
+      {
+        "CodigoPessoa": 1,
+        "Nome": "Julio",
+        "Cpf": "12",
+        "Email": "julio@gmail",
+        "Telefone": "23"
+      }
+    ]
   },
   {
     "NomeCurso": "Filosofia",
     "CapacidadeMaxima": 20,
+    "Integrantes": []
+  },
+  {
+    "NomeCurso": "Ciencias",
+    "CapacidadeMaxima": 30,
+    "Integrantes": []
+  },
+  {
+    "NomeCurso": "Geografia",
+    "CapacidadeMaxima": 60,
     "Integrantes": []
   }
 ]

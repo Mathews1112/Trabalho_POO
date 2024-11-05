@@ -19,11 +19,15 @@ public class Program
 
         CursoController cursoController = new CursoController();
 
-        var curso1 = new CursoBase("Ciencias", 30);
-        var curso2 = new CursoBase("Geografia", 60);
+        Pessoa pessoa = new Aluno(1,"Julio","12","julio@gmail","23");
 
-        cursoController.RemoverCurso(curso1);
-        cursoController.RemoverCurso(curso2 );
+        pessoa.ExibirInformações();
+
+
+
+        cursoController.RemoverParticipante( pessoa ,"ingles");
+        //var curso1 = new CursoBase("Ciencias", 30);
+        //var curso2 = new CursoBase("Geografia", 60);
 
         cursoController.ExibirListaCursos();
     }

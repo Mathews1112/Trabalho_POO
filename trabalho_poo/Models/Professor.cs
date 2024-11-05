@@ -4,11 +4,11 @@ namespace trabalho_poo.Models
 {
     internal class Professor : Pessoa
     {
-        public int CodigoPessoa { get; private set; }
-        public string Nome { get; private set; }
-        public string Cpf { get; private set; }
-        public string Email { get; private set; }
-        public string Telefone { get; private set; }
+        public int CodigoPessoa { get; set; }
+        public string Nome { get; set; }
+        public string Cpf { get; set; }
+        public string Email { get; set; }
+        public string Telefone { get; set; }
 
         public Professor(int codigoPessoa, string nome, string cpf, string email, string telefone)
         {

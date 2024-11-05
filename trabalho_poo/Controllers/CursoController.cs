@@ -39,7 +39,32 @@ namespace trabalho_poo.Controllers
             cursoBaseList.Remove(curso);
             Data.SalvarDados(cursoBaseList);
         }
+        public void AdicionarIntegrante(string nomeCurso, Pessoa pessoa)
+        {
 
+            foreach(var curso in cursoBaseList)
+            {
+                if(curso.NomeCurso.ToLower() == nomeCurso.ToLower())
+                {
+                    curso.AdicionarPessoa(pessoa);
+                    Console.WriteLine($"Curso:{curso.NomeCurso}");
+                    break;
+                }
+            }
+
+            Data.SalvarDados(cursoBaseList);
+        }
+
+        public void RemoverParticipante(Pessoa pessoa, string nomeCurso)
+        {
+            foreach(var curso in cursoBaseList)
+            {
+                if( curso.NomeCurso.ToLower() == nomeCurso.ToLower())
+                {
+                    curso.Integrantes.Remove(pessoa);
+                }
+            }
+        }
 
     }
 }

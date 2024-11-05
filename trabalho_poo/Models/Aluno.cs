@@ -8,13 +8,6 @@ namespace trabalho_poo.Models
 {
     internal class Aluno : Pessoa
     {
-
-        public int CodigoPessoa { get; private set; }
-        public string Nome { get; private set; }
-        public string Cpf { get; private set; }
-        public string Email { get; private set; }
-        public string Telefone { get; private set; }
-
         public Aluno(int codigoPessoa, string nome, string cpf, string email, string telefone)
         {
             CodigoPessoa = codigoPessoa;

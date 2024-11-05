@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace trabalho_poo.Models.Cursos
 {
+   [JsonDerivedType(typeof(CursoOnline), nameof(CursoOnline))]
+   [JsonDerivedType(typeof(CursoPresencial), nameof(CursoPresencial))]
+
     internal class CursoBase : ICursos
     {
         public string NomeCurso {  get; set; }
@@ -26,7 +30,6 @@ namespace trabalho_poo.Models.Cursos
         {
             Integrantes.Remove(pessoa);
         }
-
         public override bool Equals(object obj)
         {
             if (obj is CursoBase curso)
