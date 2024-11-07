@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6eahpdanoXs=",
+  "dgSpecHash": "4WHp1QZ+05Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\trabalho_poo.csproj",
+  "projectFilePath": "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alvim\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],

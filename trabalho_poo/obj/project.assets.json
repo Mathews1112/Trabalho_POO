@@ -106,11 +106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\trabalho_poo.csproj",
+      "projectUniqueName": "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
       "projectName": "trabalho_poo",
-      "projectPath": "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\trabalho_poo.csproj",
+      "projectPath": "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
       "packagesPath": "C:\\Users\\alvim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alvim\\source\\repos\\trabalho_poo\\trabalho_poo\\obj\\",
+      "outputPath": "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alvim\\AppData\\Roaming\\NuGet\\NuGet.Config",

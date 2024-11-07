@@ -20,12 +20,13 @@ public class Program
         CursoController cursoController = new CursoController();
 
         Pessoa pessoa = new Aluno(1,"Julio","12","julio@gmail","23");
+        //Pessoa pessoa = new Aluno(2, "Maria", "13", "maria@gmail.com", "23");
 
-        pessoa.ExibirInformações();
+        //pessoa.ExibirInformações();
 
 
 
-        cursoController.RemoverParticipante( pessoa ,"ingles");
+        cursoController.AdicionarIntegrante("ingles", pessoa);
         //var curso1 = new CursoBase("Ciencias", 30);
         //var curso2 = new CursoBase("Geografia", 60);
 

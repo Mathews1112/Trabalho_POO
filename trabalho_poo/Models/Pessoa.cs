@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace trabalho_poo.Models
 {
-    public abstract class Pessoa
+    internal class Pessoa
     {
 
         public int CodigoPessoa { get; set; }
@@ -16,5 +16,6 @@ namespace trabalho_poo.Models
         public string Telefone { get; set; }
         public  virtual void ExibirInformações() { }
 
+        public Pessoa() { }
     }
 }

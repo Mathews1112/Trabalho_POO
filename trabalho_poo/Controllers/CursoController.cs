@@ -64,6 +64,7 @@ namespace trabalho_poo.Controllers
                     curso.Integrantes.Remove(pessoa);
                 }
             }
+            Data.SalvarDados(cursoBaseList);
         }
 
     }

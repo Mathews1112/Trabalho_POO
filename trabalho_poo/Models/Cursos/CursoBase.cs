@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
@@ -14,7 +15,11 @@ namespace trabalho_poo.Models.Cursos
     {
         public string NomeCurso {  get; set; }
         public int CapacidadeMaxima { get;  set; }
-        public List<Pessoa> Integrantes { get; private set; }
+        public List<Pessoa> Integrantes { get; set; }
+
+        public CursoBase() {
+            Integrantes = new List<Pessoa>();
+        }
 
         public CursoBase(string nomeCurso, int capacidadeMaxima) { 
             
