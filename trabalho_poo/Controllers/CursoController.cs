@@ -20,7 +20,17 @@ namespace trabalho_poo.Controllers
 
             foreach (var c in cursoBaseList)
             {
-                c.ExibirInformações();
+                Console.WriteLine(c.NomeCurso);
+            }
+        }
+        public void ExibirInformacao(string nome)
+        {
+            foreach (var c in cursoBaseList)
+            {
+                if ( c.NomeCurso.ToLower() == nome.ToLower())
+                    c.ExibirInformações();
+       
+
             }
         }
         public void AdicionarCursoOnline (string nome, int capacidadeMaxima)
