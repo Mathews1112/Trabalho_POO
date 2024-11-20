@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {}
+    "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {}
   },
   "projects": {
-    "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {
+    "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
+        "projectUniqueName": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
         "projectName": "trabalho_poo",
-        "projectPath": "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
+        "projectPath": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
         "packagesPath": "C:\\Users\\alvim\\.nuget\\packages\\",
-        "outputPath": "E:\\#Trabalho_POO\\Trabalho_POO\\trabalho_poo\\obj\\",
+        "outputPath": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\alvim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

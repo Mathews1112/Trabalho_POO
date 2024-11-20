@@ -1,0 +1,42 @@
+[
+  {
+    "NomeCurso": "Matematica",
+    "CapacidadeMaxima": 20,
+    "Integrantes": []
+  },
+  {
+    "NomeCurso": "Ingles",
+    "CapacidadeMaxima": 20,
+    "Integrantes": [
+      {
+        "CodigoPessoa": 2,
+        "Nome": "Maria",
+        "Cpf": "13",
+        "Email": "maria@gmail.com",
+        "Telefone": "23"
+      },
+      {
+        "CodigoPessoa": 1,
+        "Nome": "Julio",
+        "Cpf": "12",
+        "Email": "julio@gmail",
+        "Telefone": "23"
+      }
+    ]
+  },
+  {
+    "NomeCurso": "Filosofia",
+    "CapacidadeMaxima": 20,
+    "Integrantes": []
+  },
+  {
+    "NomeCurso": "Ciencias",
+    "CapacidadeMaxima": 30,
+    "Integrantes": []
+  },
+  {
+    "NomeCurso": "Geografia",
+    "CapacidadeMaxima": 60,
+    "Integrantes": []
+  }
+]
