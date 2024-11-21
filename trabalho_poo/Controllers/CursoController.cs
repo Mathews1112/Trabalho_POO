@@ -12,8 +12,10 @@ namespace trabalho_poo.Controllers
     internal class CursoController
     {
         private List<CursoBase> cursoBaseList;
-        public CursoController ()
+        PessoaController _pessoas;
+        public CursoController (PessoaController pessoaController)
         {
+            _pessoas = pessoaController;
             cursoBaseList = Data.CarregarDados();
         }
         public void ExibirListaCursos() {
@@ -35,33 +37,41 @@ namespace trabalho_poo.Controllers
         }
         public void AdicionarCursoOnline (string nome, int capacidadeMaxima)
         {
-            CursoOnline cursoOnline = new CursoOnline(nome, capacidadeMaxima);
+            CursoBase cursoOnline = new CursoOnline(nome, capacidadeMaxima);
             cursoBaseList.Add(cursoOnline);
             Data.SalvarDados(cursoBaseList);
         }
         public void AdicionarCursoPresencial(string nome, int capacidadeMaxima)
         {
-            CursoPresencial cursoPresencial = new CursoPresencial(nome, capacidadeMaxima);
+            CursoBase cursoPresencial = new CursoPresencial(nome, capacidadeMaxima);
             cursoBaseList.Add(cursoPresencial);
+            Data.SalvarDados(cursoBaseList);
+        }
+        public void AdicionarCursoEspecial(string nome, int capacidade)
+        {
+            CursoBase curso = new CursoEspecial(nome, capacidade);
+            cursoBaseList.Add(curso);
             Data.SalvarDados(cursoBaseList);
         }
         public void RemoverCurso(CursoBase curso) { 
             cursoBaseList.Remove(curso);
             Data.SalvarDados(cursoBaseList);
         }
-        public void AdicionarIntegrante(string nomeCurso, Pessoa pessoa)
+        public void AdicionarIntegrante(string nomeCurso, int codigo)
         {
-
+            var pessoa = _pessoas.GetPessoa(codigo);
+            Console.WriteLine(pessoa.Nome);
             foreach(var curso in cursoBaseList)
             {
                 if(curso.NomeCurso.ToLower() == nomeCurso.ToLower())
                 {
                     curso.AdicionarPessoa(pessoa);
+                    pessoa.CursosInscritos.Add(curso.NomeCurso);
                     Console.WriteLine($"Curso:{curso.NomeCurso}");
+                    Data_Pessoa.SalvarDados(_pessoas.listPessoas);
                     break;
                 }
             }
-
             Data.SalvarDados(cursoBaseList);
         }
 

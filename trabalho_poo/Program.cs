@@ -14,10 +14,10 @@ public class Program
         //List<CursoBase> cursos = Data.CarregarDados();
         //foreach (var curso in cursos)
         //{
-         // curso.ExibirInformações();
+        // curso.ExibirInformações();
         //}
-
-        //CursoController cursoController = new CursoController();
+        PessoaController pe = new PessoaController();
+        CursoController cursoController = new CursoController(pe);
         
         //Pessoa pessoa = new Aluno(1,"Julio","12","julio@gmail","23");
         //Pessoa pessoa = new Aluno(2, "Maria", "13", "maria@gmail.com", "23");
@@ -32,10 +32,17 @@ public class Program
 
         //cursoController.ExibirListaCursos();
 
-        PessoaController pe = new PessoaController();
+        
         //Aluno aluno = new Aluno(1, "Julio", "12", "julio@gmail", "23");
-        //pe.AdicionarPessoa(aluno);
+        //pe.AdicionarPessoa("lucas", "121", "lucas@gmail", "213");
+        //Console.WriteLine();
+        //pe.ExibirListaPessoas();
 
+        cursoController.AdicionarIntegrante("ingles", 5033984);
+        
+        Console.WriteLine();
+        cursoController.ExibirListaCursos();
+        Console.WriteLine();
         pe.ExibirListaPessoas();
 
     }

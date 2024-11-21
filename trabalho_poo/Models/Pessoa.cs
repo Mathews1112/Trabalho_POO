@@ -18,8 +18,11 @@ namespace trabalho_poo.Models
         public string Cpf {  get; set; }
         public string Email { get; set; }
         public string Telefone { get; set; }
+        public List<string> CursosInscritos { get; set; }
         public  virtual void ExibirInformações() { }
 
-        public Pessoa() { }
+        public Pessoa() { 
+        CursosInscritos = new List<string>();
+        }
     }
 }

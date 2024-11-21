@@ -13,14 +13,26 @@
         "Nome": "Maria",
         "Cpf": "13",
         "Email": "maria@gmail.com",
-        "Telefone": "23"
+        "Telefone": "23",
+        "CursosInscritos": []
       },
       {
         "CodigoPessoa": 1,
         "Nome": "Julio",
         "Cpf": "12",
         "Email": "julio@gmail",
-        "Telefone": "23"
+        "Telefone": "23",
+        "CursosInscritos": []
+      },
+      {
+        "CodigoPessoa": 5033984,
+        "Nome": "lucas",
+        "Cpf": "121",
+        "Email": "lucas@gmail",
+        "Telefone": "213",
+        "CursosInscritos": [
+          "Ingles"
+        ]
       }
     ]
   },
@@ -32,11 +44,6 @@
   {
     "NomeCurso": "Ciencias",
     "CapacidadeMaxima": 30,
-    "Integrantes": []
-  },
-  {
-    "NomeCurso": "Geografia",
-    "CapacidadeMaxima": 60,
     "Integrantes": []
   }
 ]

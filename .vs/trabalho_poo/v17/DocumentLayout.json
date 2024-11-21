@@ -1,46 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\",
+  "WorkspaceRootPath": "E:\\Nova pasta\\Trabalho_POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\banco_de_dados\\pessoa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\banco_de_dados\\pessoa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\data_arquivo\\data_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\data_arquivo\\data_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\data_arquivo\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\data_arquivo\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\data_arquivo\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\data_arquivo\\data_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\data_arquivo\\data_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\alvim\\desktop\\trabalho_poo\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursoespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\banco_de_dados\\pessoa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\banco_de_dados\\pessoa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\banco_de_dados\\cursos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\banco_de_dados\\cursos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursoespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursoespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|e:\\nova pasta\\trabalho_poo\\trabalho_poo\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,82 +58,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 157,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "pessoa.json",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\pessoa.json",
-              "RelativeDocumentMoniker": "trabalho_poo\\Banco_de_dados\\pessoa.json",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\pessoa.json",
-              "RelativeToolTip": "trabalho_poo\\Banco_de_dados\\pessoa.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "DocumentIndex": 5,
+              "Title": "cursos.json",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\cursos.json",
+              "RelativeDocumentMoniker": "trabalho_poo\\Banco_de_dados\\cursos.json",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\cursos.json",
+              "RelativeToolTip": "trabalho_poo\\Banco_de_dados\\cursos.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-20T20:23:40.845Z",
+              "WhenOpened": "2024-11-20T23:27:03.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Aluno.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Models\\Aluno.cs",
+              "RelativeToolTip": "trabalho_poo\\Models\\Aluno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:52:23.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Models\\Pessoa.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Models\\Pessoa.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Models\\Pessoa.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Models\\Pessoa.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Models\\Pessoa.cs",
               "RelativeToolTip": "trabalho_poo\\Models\\Pessoa.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T20:19:30.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Data_arquivo\\Data.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data.cs",
-              "RelativeToolTip": "trabalho_poo\\Data_arquivo\\Data.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAwAAACOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T20:15:28.791Z",
+              "DocumentIndex": 3,
+              "Title": "pessoa.json",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\pessoa.json",
+              "RelativeDocumentMoniker": "trabalho_poo\\Banco_de_dados\\pessoa.json",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\pessoa.json",
+              "RelativeToolTip": "trabalho_poo\\Banco_de_dados\\pessoa.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T20:23:40.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Views\\Menu.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Views\\Menu.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Views\\Menu.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Views\\Menu.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Views\\Menu.cs",
               "RelativeToolTip": "trabalho_poo\\Views\\Menu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T20:12:10.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T20:12:10.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PessoaController.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Controllers\\PessoaController.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Controllers\\PessoaController.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Controllers\\PessoaController.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Controllers\\PessoaController.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Controllers\\PessoaController.cs",
               "RelativeToolTip": "trabalho_poo\\Controllers\\PessoaController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwAoAAAAjAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowEEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T20:02:05.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Controllers\\CursoController.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "trabalho_poo\\Controllers\\CursoController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwEYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:54:25.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Data.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Data_arquivo\\Data.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data.cs",
+              "RelativeToolTip": "trabalho_poo\\Data_arquivo\\Data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:15:28.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Data_Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
               "RelativeToolTip": "trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBwAAAAMAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T19:56:09.085Z",
               "EditorCaption": ""
@@ -134,9 +192,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "CursoEspecial.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
               "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,39 +203,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CursoBase.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoBase.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoBase.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoBase.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoBase.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoBase.cs",
               "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoBase.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T22:22:45.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CursoController.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Controllers\\CursoController.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Controllers\\CursoController.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Controllers\\CursoController.cs",
-              "RelativeToolTip": "trabalho_poo\\Controllers\\CursoController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T21:54:25.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Program.cs",
+              "DocumentMoniker": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Program.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Program.cs",
-              "ToolTip": "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Program.cs",
+              "ToolTip": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Program.cs",
               "RelativeToolTip": "trabalho_poo\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAUwCYAAAAKAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T21:44:04.102Z",
               "EditorCaption": ""

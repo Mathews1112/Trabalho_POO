@@ -11,13 +11,13 @@ namespace trabalho_poo.Data_arquivo
 {
     internal class Data_Pessoa
     {
-        private static readonly string caminhoDoArquivo = "C:\\Users\\alvim\\Desktop\\Trabalho_poo\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\pessoa.json";
+        private static readonly string caminhoDoArquivo = "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\pessoa.json";
 
         public static void SalvarDados(List<Pessoa> pessoas)
         {
 
             var opcoes = new JsonSerializerOptions { WriteIndented = true };
-            string json = JsonSerializer.Serialize(pessoas.Cast<Object>().ToList(), opcoes);
+            string json = JsonSerializer.Serialize(pessoas, opcoes);
             File.WriteAllText(caminhoDoArquivo, json);
             Console.WriteLine("Dados salvos com sucesso");
 
