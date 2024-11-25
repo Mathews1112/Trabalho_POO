@@ -25,10 +25,10 @@ namespace trabalho_poo.Models.Cursos
                 $"Número de participantes:{Integrantes.Count}\n" +
                 $"Url das aulas do curso:{urlAula}\n" );
             Console.WriteLine("Pessoas cadastrada no curso");
-            foreach (var p in Integrantes) {
-                Console.WriteLine($"Nome:{p.Nome}\n" +
-                    $"{p.CodigoPessoa}");
-            }
+            //foreach (var p in Integrantes) {
+                //Console.WriteLine($"Nome:{p.Nome}\n" +
+                    //$"{p.CodigoPessoa}");
+            //}
         }
     }
 }

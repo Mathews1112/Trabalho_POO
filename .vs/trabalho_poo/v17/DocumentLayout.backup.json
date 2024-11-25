@@ -1,50 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\",
+  "WorkspaceRootPath": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\views\\menucursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\views\\menucursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\data_arquivo\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\data_arquivo\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\views\\menupessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\views\\menupessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\cursos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\cursos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursoonline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursoonline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\banco_de_dados\\cursos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\banco_de_dados\\cursos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursopresencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursopresencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\banco_de_dados\\pessoa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\banco_de_dados\\pessoa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\models\\cursos\\icursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\data_arquivo\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\data_arquivo\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\models\\cursos\\icursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\icursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursoonline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursoonline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursoespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursoespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\desktop\\trabalho_poo\\trabalho_poo\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\models\\cursos\\cursopresencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\models\\cursos\\cursopresencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\data_arquivo\\data_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\data_arquivo\\data_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|c:\\users\\matheus.alvim\\music\\git_trabalho_poo\\trabalho_poo\\trabalho_poo\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FE35D2-087D-47CD-B9D9-2321BD776B26}|trabalho_poo\\trabalho_poo.csproj|solutionrelative:trabalho_poo\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 157,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,146 +86,190 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "cursos.json",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\cursos.json",
-              "RelativeDocumentMoniker": "trabalho_poo\\cursos.json",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\cursos.json",
-              "RelativeToolTip": "trabalho_poo\\cursos.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-01T11:53:20.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Data_arquivo\\Data.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data.cs",
               "RelativeToolTip": "trabalho_poo\\Data_arquivo\\Data.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:43:43.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CursoController.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Controllers\\CursoController.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Controllers\\CursoController.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Controllers\\CursoController.cs",
-              "RelativeToolTip": "trabalho_poo\\Controllers\\CursoController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:30:58.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CursoBase.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoBase.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoBase.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoBase.cs",
-              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T23:32:22.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T11:29:08.094Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CursoOnline.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoOnline.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoOnline.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoOnline.cs",
-              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoOnline.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T22:21:41.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CursoPresencial.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoPresencial.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoPresencial.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoPresencial.cs",
-              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoPresencial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T22:21:15.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICursos.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\ICursos.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\ICursos.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\ICursos.cs",
-              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\ICursos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T22:10:36.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Aluno.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Aluno.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Aluno.cs",
-              "RelativeToolTip": "trabalho_poo\\Models\\Aluno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T22:08:35.457Z",
+              "Title": "cursos.json",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\cursos.json",
+              "RelativeDocumentMoniker": "trabalho_poo\\Banco_de_dados\\cursos.json",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\cursos.json",
+              "RelativeToolTip": "trabalho_poo\\Banco_de_dados\\cursos.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-24T23:12:49.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Professor.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Professor.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Professor.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Professor.cs",
-              "RelativeToolTip": "trabalho_poo\\Models\\Professor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Title": "ICursos.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\ICursos.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\ICursos.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\ICursos.cs",
+              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\ICursos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T22:04:56.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T23:09:21.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CursoPresencial.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoPresencial.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoPresencial.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoPresencial.cs",
+              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoPresencial.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T23:08:54.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CursoEspecial.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
+              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoEspecial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T23:08:43.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CursoBase.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoBase.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoBase.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoBase.cs",
+              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoBase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T23:07:43.967Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Pessoa.cs",
-              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Pessoa.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Models\\Pessoa.cs",
-              "RelativeToolTip": "trabalho_poo\\Models\\Pessoa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Title": "CursoOnline.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoOnline.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Models\\Cursos\\CursoOnline.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Models\\Cursos\\CursoOnline.cs",
+              "RelativeToolTip": "trabalho_poo\\Models\\Cursos\\CursoOnline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T22:03:01.804Z",
+              "WhenOpened": "2024-11-24T22:55:34.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Controllers\\CursoController.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "trabalho_poo\\Controllers\\CursoController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwGcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:54:25.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuPessoas.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Views\\MenuPessoas.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Views\\MenuPessoas.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Views\\MenuPessoas.cs",
+              "RelativeToolTip": "trabalho_poo\\Views\\MenuPessoas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T22:31:41.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Program.cs",
               "RelativeDocumentMoniker": "trabalho_poo\\Program.cs",
-              "ToolTip": "C:\\Users\\matheus.alvim\\Desktop\\Trabalho_POO\\trabalho_poo\\Program.cs*",
-              "RelativeToolTip": "trabalho_poo\\Program.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Program.cs",
+              "RelativeToolTip": "trabalho_poo\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T21:44:04.102Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Controllers\\PessoaController.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Controllers\\PessoaController.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Controllers\\PessoaController.cs",
+              "RelativeToolTip": "trabalho_poo\\Controllers\\PessoaController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAkwMMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:02:05.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuCursos.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Views\\MenuCursos.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Views\\MenuCursos.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Views\\MenuCursos.cs",
+              "RelativeToolTip": "trabalho_poo\\Views\\MenuCursos.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwBwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T22:32:30.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Data_Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
+              "RelativeToolTip": "trabalho_poo\\Data_arquivo\\Data_Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T11:29:13.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pessoa.json",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\pessoa.json",
+              "RelativeDocumentMoniker": "trabalho_poo\\Banco_de_dados\\pessoa.json",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\pessoa.json",
+              "RelativeToolTip": "trabalho_poo\\Banco_de_dados\\pessoa.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T13:27:41.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Views\\Menu.cs",
+              "RelativeDocumentMoniker": "trabalho_poo\\Views\\Menu.cs",
+              "ToolTip": "C:\\Users\\matheus.alvim\\Music\\Git_Trabalho_POO\\Trabalho_POO\\trabalho_poo\\Views\\Menu.cs",
+              "RelativeToolTip": "trabalho_poo\\Views\\Menu.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA4wDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:12:10.883Z"
             }
           ]
         }

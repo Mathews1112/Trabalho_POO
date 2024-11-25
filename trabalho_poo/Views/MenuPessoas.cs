@@ -9,7 +9,7 @@ namespace trabalho_poo.Views
 
         public MenuPessoas(PessoaController pessoaController)
         {
-            _pessoaController =pessoaController;
+            _pessoaController = pessoaController;
         }
 
         public void ExibirMenu()
@@ -22,7 +22,8 @@ namespace trabalho_poo.Views
                 Console.WriteLine("2. Adicionar Aluno");
                 Console.WriteLine("3. Adicionar Professor");
                 Console.WriteLine("4. Remover Pessoa");
-                Console.WriteLine("5. Voltar");
+                Console.WriteLine("5. Exibir Informações de uma Pessoa");
+                Console.WriteLine("6. Voltar");
                 Console.Write("Escolha uma opção: ");
                 string opcao = Console.ReadLine();
 
@@ -43,6 +44,9 @@ namespace trabalho_poo.Views
                             RemoverPessoa();
                             break;
                         case "5":
+                            ExibirInformacoesPessoa();
+                            break;
+                        case "6":
                             return;
                         default:
                             Console.WriteLine("Opção inválida. Tente novamente.");
@@ -56,6 +60,21 @@ namespace trabalho_poo.Views
 
                 Console.WriteLine("Pressione qualquer tecla para continuar...");
                 Console.ReadKey();
+            }
+        }
+
+        private void ExibirInformacoesPessoa()
+        {
+            try
+            {
+                Console.Write("Digite o nome da pessoa para visualizar: ");
+                string nomePessoa = Console.ReadLine();
+
+                _pessoaController.ExibirPessoa(nomePessoa);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao exibir a pessoa: {ex.Message}");
             }
         }
 
@@ -81,7 +100,6 @@ namespace trabalho_poo.Views
             }
         }
 
-
         private void AdicionarProfessor()
         {
             try
@@ -98,20 +116,7 @@ namespace trabalho_poo.Views
                 Console.Write("Formação: ");
                 string formacao = Console.ReadLine();
                 Console.Write("Salário: ");
-
-                double salario;
-                try
-                {
-                    salario = double.Parse(Console.ReadLine());
-                }
-                catch (FormatException)
-                {
-                    throw new Exception("Salário deve ser um número válido.");
-                }
-                catch (OverflowException)
-                {
-                    throw new Exception("O valor informado para o salário é muito grande.");
-                }
+                double salario = double.Parse(Console.ReadLine());
 
                 _pessoaController.AdicionarProfessor(nome, cpf, email, telefone, formacao, salario);
             }
@@ -120,33 +125,20 @@ namespace trabalho_poo.Views
                 Console.WriteLine($"Erro ao adicionar professor: {ex.Message}");
             }
         }
-            private void RemoverPessoa()
-                {
-                    try
-                    {
-                        Console.Write("Digite o código da pessoa para remover: ");
-                        int codigo;
 
-                        try
-                        {
-                            codigo = int.Parse(Console.ReadLine());
-                        }
-                        catch (FormatException)
-                        {
-                            throw new Exception("O código da pessoa deve ser um número inteiro.");
-                        }
-                        catch (OverflowException)
-                        {
-                            throw new Exception("O valor informado para o código da pessoa é muito grande.");
-                        }
+        private void RemoverPessoa()
+        {
+            try
+            {
+                Console.Write("Digite o código da pessoa para remover: ");
+                int codigo = int.Parse(Console.ReadLine());
 
-                        _pessoaController.RemoverPessoa(codigo);
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Erro ao remover pessoa: {ex.Message}");
-                    }
-                }
-
-   }
-  }
+                _pessoaController.RemoverPessoa(codigo);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao remover pessoa: {ex.Message}");
+            }
+        }
+    }
+}

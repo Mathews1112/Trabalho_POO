@@ -43,7 +43,9 @@ namespace trabalho_poo.Controllers
                 Console.WriteLine("Lista de pessoas cadastradas:");
                 foreach (var item in listPessoas)
                 {
-                    Console.WriteLine($"Nome: {item.Nome}\nMatrícula: {item.CodigoPessoa}\n");
+                    Console.WriteLine($"Nome: {item.Nome}\n" +
+                        $"Matrícula: {item.CodigoPessoa}\n" +
+                        $"Cursos incristos:{string.Join(", ", item.CursosInscritos)}");
                 }
             }
             catch (Exception ex)
@@ -60,7 +62,9 @@ namespace trabalho_poo.Controllers
                 if (pessoa == null)
                     throw new ExcecaoPessoa.PessoaNaoEncontrada(nome);
 
-                Console.WriteLine($"Nome: {pessoa.Nome}\nCódigo: {pessoa.CodigoPessoa}\n");
+                Console.WriteLine($"Nome: {pessoa.Nome}\n" +
+                    $"Código: {pessoa.CodigoPessoa}\n" +
+                    $"Cursos inscritos: {string.Join(", ",pessoa.CursosInscritos)}");
             }
             catch (ExcecaoPessoa.PessoaNaoEncontrada ex)
             {

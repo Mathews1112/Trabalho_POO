@@ -10,6 +10,7 @@ namespace trabalho_poo.Models.Cursos
 {
    [JsonDerivedType(typeof(CursoOnline), nameof(CursoOnline))]
    [JsonDerivedType(typeof(CursoPresencial), nameof(CursoPresencial))]
+   [JsonDerivedType(typeof(CursoEspecial), nameof(CursoEspecial))]
 
     internal class CursoBase : ICursos
     {

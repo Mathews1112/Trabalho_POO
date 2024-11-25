@@ -54,7 +54,14 @@ namespace trabalho_poo.Controllers
                             Console.WriteLine($"  E-mail: {integrante.Email}");
                             Console.WriteLine($"  Telefone: {integrante.Telefone}");
                             Console.WriteLine();
+                            if (integrante is Professor professor)
+                            {
+
+                                Console.WriteLine($"  Formação: {professor.Formacao}");
+                                Console.WriteLine($"  Salário: {professor.Salario:C}");
+                            }
                         }
+                        
                     }
                     else
                     {
@@ -69,6 +76,55 @@ namespace trabalho_poo.Controllers
                 Console.WriteLine($"Erro ao exibir a lista de cursos: {ex.Message}");
             }
         }
+        public void ExibirUmCurso(string nome)
+        {
+            try
+            {
+                var curso = cursoBaseList.Find(c => c.NomeCurso.Equals(nome, StringComparison.OrdinalIgnoreCase));
+
+                if (curso == null)
+                {
+                    Console.WriteLine($"Curso com o nome '{nome}' não encontrado.");
+                    return;
+                }
+
+                Console.WriteLine($"Curso: {curso.NomeCurso}");
+                Console.WriteLine($"Capacidade Máxima: {curso.CapacidadeMaxima}");
+                Console.WriteLine($"Número de Participantes: {curso.Integrantes.Count}");
+
+                if (curso.Integrantes.Count > 0)
+                {
+                    Console.WriteLine("Integrantes:");
+                    foreach (var integrante in curso.Integrantes)
+                    {
+                        Console.WriteLine($"- Nome: {integrante.Nome}");
+                        Console.WriteLine($"  Código: {integrante.CodigoPessoa}");
+                        Console.WriteLine($"  CPF: {integrante.Cpf}");
+                        Console.WriteLine($"  E-mail: {integrante.Email}");
+                        Console.WriteLine($"  Telefone: {integrante.Telefone}");
+                        Console.WriteLine($"Cursos Inscritos:{string.Join(", ", integrante.CursosInscritos)}");
+                        Console.WriteLine();
+
+                        if (integrante is Professor professor)
+                        {
+                            Console.WriteLine($"  Formação: {professor.Formacao}");
+                            Console.WriteLine($"  Salário: {professor.Salario:C}");
+                        }
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Nenhum integrante inscrito.");
+                }
+
+                Console.WriteLine(new string('-', 40));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao exibir o curso: {ex.Message}");
+            }
+        }
+
         public void AdicionarCursoOnline(string nome, int capacidadeMaxima, string urlAula)
         {
             try

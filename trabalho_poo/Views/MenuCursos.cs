@@ -26,7 +26,7 @@ namespace trabalho_poo.Views
                 Console.WriteLine("6. Adicionar Participante");
                 Console.WriteLine("7. Remover Participante");
                 Console.WriteLine("8. Voltar");
-                Console.Write("Escolha uma opção: ");
+               
                 string opcao = Console.ReadLine();
 
                 try
@@ -55,6 +55,9 @@ namespace trabalho_poo.Views
                             RemoverParticipante();
                             break;
                         case "8":
+                            ExibirInformacoesCurso();
+                            break;
+                        case "9":
                             return;
                         default:
                             Console.WriteLine("Opção inválida. Tente novamente.");
@@ -70,7 +73,20 @@ namespace trabalho_poo.Views
                 Console.ReadKey();
             }
         }
+        private void ExibirInformacoesCurso()
+{
+    try
+    {
+        Console.Write("Digite o nome do curso para visualizar: ");
+        string nomeCurso = Console.ReadLine();
 
+        _cursoController.ExibirUmCurso(nomeCurso);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Erro ao exibir o curso: {ex.Message}");
+    }
+}
         private void AdicionarCursoOnline()
         {
             try
@@ -169,14 +185,6 @@ namespace trabalho_poo.Views
 
                 _cursoController.AdicionarIntegrante(nomeCurso, codigoPessoa);
             }
-            catch (FormatException)
-            {
-                Console.WriteLine("Erro: O código da pessoa deve ser um número inteiro.");
-            }
-            catch (OverflowException)
-            {
-                Console.WriteLine("Erro: O código da pessoa é muito grande.");
-            }
             catch (Exception ex)
             {
                 Console.WriteLine($"Erro ao adicionar participante: {ex.Message}");
@@ -195,14 +203,6 @@ namespace trabalho_poo.Views
                 int codigoPessoa = int.Parse(Console.ReadLine());
 
                 _cursoController.RemoverParticipante(codigoPessoa, nomeCurso);
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("Erro: O código da pessoa deve ser um número inteiro.");
-            }
-            catch (OverflowException)
-            {
-                Console.WriteLine("Erro: O código da pessoa é muito grande.");
             }
             catch (Exception ex)
             {

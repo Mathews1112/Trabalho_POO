@@ -8,5 +8,19 @@
     "CursosInscritos": [
       "Ingles"
     ]
+  },
+  {
+    "$type": "Professor",
+    "Formacao": "Tecnologo em biologia",
+    "Salario": 4000,
+    "CodigoPessoa": 5599220,
+    "Nome": "Pedro ivo",
+    "Cpf": "12312312323",
+    "Email": "pedroivo@gmail.com",
+    "Telefone": "31 9 98345454",
+    "CursosInscritos": [
+      "Ciencias",
+      "Ciencias"
+    ]
   }
 ]

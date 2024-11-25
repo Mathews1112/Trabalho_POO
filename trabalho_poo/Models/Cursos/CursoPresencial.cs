@@ -24,12 +24,12 @@ namespace trabalho_poo.Models.Cursos
                 $"Capacidade Maxima:{CapacidadeMaxima}\n" +
                 $"Número de participantes:{Integrantes.Count}\n" +
                 $"Local das aulas:{local_aula}\n");
-            Console.WriteLine("Pessoas cadastrada no curso");
-            foreach (var p in Integrantes)
-            {
-                Console.WriteLine($"Nome:{p.Nome}\n" +
-                    $"{p.CodigoPessoa}");
-            }
+            //Console.WriteLine("Pessoas cadastrada no curso");
+            //foreach (var p in Integrantes)
+            //{
+               // Console.WriteLine($"Nome:{p.Nome}\n" +
+                    //$"{p.CodigoPessoa}");
+            //}
         }
     }
 }

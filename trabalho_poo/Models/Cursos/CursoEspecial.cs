@@ -33,11 +33,11 @@ namespace trabalho_poo.Models.Cursos
                 $"Url das aulas do curso:{urlAula}\n" +
                 $"Local das aulas:{local_aula}");
             Console.WriteLine("Pessoas cadastrada no curso");
-            foreach (var p in Integrantes)
-            {
-                Console.WriteLine($"Nome:{p.Nome}\n" +
-                    $"{p.CodigoPessoa}");
-            }
+            //foreach (var p in Integrantes)
+            //{
+                //Console.WriteLine($"Nome:{p.Nome}\n" +
+                   // $"{p.CodigoPessoa}");
+            //}
         }
     }
 }
