@@ -21,12 +21,19 @@ namespace trabalho_poo.Models.Cursos
             Integrantes = new List<Pessoa>();
         }
 
-        public CursoBase(string nomeCurso, int capacidadeMaxima) { 
-            
-           NomeCurso = nomeCurso;
-           CapacidadeMaxima = capacidadeMaxima;
-           Integrantes = new List<Pessoa>();
+        public CursoBase(string nomeCurso, int capacidadeMaxima)
+        {
+            if (string.IsNullOrWhiteSpace(nomeCurso))
+                throw new ArgumentNullException(nameof(nomeCurso), "O nome do curso não pode ser nulo ou vazio.");
+
+            if (capacidadeMaxima < 0)
+                throw new ArgumentOutOfRangeException(nameof(capacidadeMaxima), "A capacidade máxima não pode ser menor que zero.");
+
+            NomeCurso = nomeCurso;
+            CapacidadeMaxima = capacidadeMaxima;
+            Integrantes = new List<Pessoa>();
         }
+
         public void AdicionarPessoa(Pessoa pessoa)
         {
             Integrantes.Add(pessoa);
@@ -39,10 +46,10 @@ namespace trabalho_poo.Models.Cursos
         {
             if (obj is CursoBase curso)
             {
-                return this.NomeCurso == curso.NomeCurso;
+                return this.NomeCurso.ToLower() == curso.NomeCurso.ToLower();
             }
             return false;
         }
-        public virtual void ExibirInformações() { }
+        public virtual void ExibirInformacoes() { }
     }
 }

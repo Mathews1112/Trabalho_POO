@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {}
+    "E:\\Trabalho_POO_Final\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {}
   },
   "projects": {
-    "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {
+    "E:\\Trabalho_POO_Final\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
+        "projectUniqueName": "E:\\Trabalho_POO_Final\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
         "projectName": "trabalho_poo",
-        "projectPath": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
+        "projectPath": "E:\\Trabalho_POO_Final\\Trabalho_POO\\trabalho_poo\\trabalho_poo.csproj",
         "packagesPath": "C:\\Users\\alvim\\.nuget\\packages\\",
-        "outputPath": "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\obj\\",
+        "outputPath": "E:\\Trabalho_POO_Final\\Trabalho_POO\\trabalho_poo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alvim\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,6 +6,7 @@ using trabalho_poo.Controllers;
 using trabalho_poo.Data_arquivo;
 using trabalho_poo.Models;
 using trabalho_poo.Models.Cursos;
+using trabalho_poo.Views;
 
 public class Program
 {
@@ -16,8 +17,8 @@ public class Program
         //{
         // curso.ExibirInformações();
         //}
-        PessoaController pe = new PessoaController();
-        CursoController cursoController = new CursoController(pe);
+        //PessoaController pe = new PessoaController();
+        //CursoController cursoController = new CursoController(pe);
         
         //Pessoa pessoa = new Aluno(1,"Julio","12","julio@gmail","23");
         //Pessoa pessoa = new Aluno(2, "Maria", "13", "maria@gmail.com", "23");
@@ -38,13 +39,16 @@ public class Program
         //Console.WriteLine();
         //pe.ExibirListaPessoas();
 
-        cursoController.AdicionarIntegrante("ingles", 5033984);
+        //cursoController.AdicionarIntegrante("ingles", 5033984);
         
-        Console.WriteLine();
-        cursoController.ExibirListaCursos();
-        Console.WriteLine();
-        pe.ExibirListaPessoas();
+        //Console.WriteLine();
+        //cursoController.ExibirListaCursos();
+        //Console.WriteLine();
+        //pe.ExibirListaPessoas();
+        PessoaController pessoa = new PessoaController();
 
+        Menu menu = new Menu(pessoa);
+        menu.ExibirMenu();
     }
 
 }

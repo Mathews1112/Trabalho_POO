@@ -1,91 +1,228 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using trabalho_poo.Data_arquivo;
 using trabalho_poo.Models;
 using trabalho_poo.Models.Cursos;
+using trabalho_poo.Excecoes;
 
 namespace trabalho_poo.Controllers
 {
     internal class CursoController
     {
         private List<CursoBase> cursoBaseList;
-        PessoaController _pessoas;
-        public CursoController (PessoaController pessoaController)
+        private PessoaController _pessoas;
+
+        public CursoController(PessoaController pessoaController)
         {
             _pessoas = pessoaController;
-            cursoBaseList = Data.CarregarDados();
-        }
-        public void ExibirListaCursos() {
 
-            foreach (var c in cursoBaseList)
+            try
             {
-                Console.WriteLine(c.NomeCurso);
+                cursoBaseList = Data.CarregarDados();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao carregar os dados dos cursos: {ex.Message}");
+                cursoBaseList = new List<CursoBase>();
             }
         }
-        public void ExibirInformacao(string nome)
-        {
-            foreach (var c in cursoBaseList)
-            {
-                if ( c.NomeCurso.ToLower() == nome.ToLower())
-                    c.ExibirInformações();
-       
 
+        public void ExibirListaCursos()
+        {
+            try
+            {
+                if (cursoBaseList == null || cursoBaseList.Count == 0)
+                {
+                    Console.WriteLine("Nenhum curso cadastrado.");
+                    return;
+                }
+
+                foreach (var curso in cursoBaseList)
+                {
+                    Console.WriteLine($"Curso: {curso.NomeCurso}");
+                    Console.WriteLine($"Capacidade Máxima: {curso.CapacidadeMaxima}");
+                    Console.WriteLine($"Número de Participantes: {curso.Integrantes.Count}");
+
+                    if (curso.Integrantes.Count > 0)
+                    {
+                        Console.WriteLine("Integrantes:");
+                        foreach (var integrante in curso.Integrantes)
+                        {
+                            Console.WriteLine($"- Nome: {integrante.Nome}");
+                            Console.WriteLine($"  Código: {integrante.CodigoPessoa}");
+                            Console.WriteLine($"  CPF: {integrante.Cpf}");
+                            Console.WriteLine($"  E-mail: {integrante.Email}");
+                            Console.WriteLine($"  Telefone: {integrante.Telefone}");
+                            Console.WriteLine();
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Nenhum integrante inscrito.");
+                    }
+
+                    Console.WriteLine(new string('-', 40));
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao exibir a lista de cursos: {ex.Message}");
             }
         }
-        public void AdicionarCursoOnline (string nome, int capacidadeMaxima)
+        public void AdicionarCursoOnline(string nome, int capacidadeMaxima, string urlAula)
         {
-            CursoBase cursoOnline = new CursoOnline(nome, capacidadeMaxima);
-            cursoBaseList.Add(cursoOnline);
-            Data.SalvarDados(cursoBaseList);
+            try
+            {
+                if (cursoBaseList.Exists(c => c.NomeCurso.Equals(nome, StringComparison.OrdinalIgnoreCase)))
+                    throw new ExcecaoCurso.CursoJaCadastrado(nome);
+
+                var cursoOnline = new CursoOnline(nome, capacidadeMaxima, urlAula);
+                cursoBaseList.Add(cursoOnline);
+                Data.SalvarDados(cursoBaseList);
+            }
+            catch (ExcecaoCurso.CursoJaCadastrado ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao adicionar curso online: {ex.Message}");
+            }
         }
-        public void AdicionarCursoPresencial(string nome, int capacidadeMaxima)
+
+        public void AdicionarCursoPresencial(string nome, int capacidadeMaxima, string local_aula)
         {
-            CursoBase cursoPresencial = new CursoPresencial(nome, capacidadeMaxima);
-            cursoBaseList.Add(cursoPresencial);
-            Data.SalvarDados(cursoBaseList);
+            try
+            {
+                if (cursoBaseList.Exists(c => c.NomeCurso.Equals(nome, StringComparison.OrdinalIgnoreCase)))
+                    throw new ExcecaoCurso.CursoJaCadastrado(nome);
+
+                var cursoPresencial = new CursoPresencial(nome, capacidadeMaxima, local_aula);
+                cursoBaseList.Add(cursoPresencial);
+                Data.SalvarDados(cursoBaseList);
+            }
+            catch (ExcecaoCurso.CursoJaCadastrado ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao adicionar curso presencial: {ex.Message}");
+            }
         }
-        public void AdicionarCursoEspecial(string nome, int capacidade)
+        public void AdicionarCursoEspecial(string nome, int capacidadeMaxima, string local_aula, string urlAula)
         {
-            CursoBase curso = new CursoEspecial(nome, capacidade);
-            cursoBaseList.Add(curso);
-            Data.SalvarDados(cursoBaseList);
+            try
+            {
+                if (cursoBaseList.Exists(c => c.NomeCurso.Equals(nome)))
+                    throw new ExcecaoCurso.CursoJaCadastrado(nome);
+
+                var cursoEspecial = new CursoEspecial(nome, capacidadeMaxima, urlAula, local_aula);
+                cursoBaseList.Add(cursoEspecial);
+                Data.SalvarDados(cursoBaseList);
+            }
+            catch (ExcecaoCurso.CursoJaCadastrado ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao adicionar curso presencial: {ex.Message}");
+            }
         }
-        public void RemoverCurso(CursoBase curso) { 
-            cursoBaseList.Remove(curso);
-            Data.SalvarDados(cursoBaseList);
-        }
+
         public void AdicionarIntegrante(string nomeCurso, int codigo)
         {
-            var pessoa = _pessoas.GetPessoa(codigo);
-            Console.WriteLine(pessoa.Nome);
-            foreach(var curso in cursoBaseList)
+            try
             {
-                if(curso.NomeCurso.ToLower() == nomeCurso.ToLower())
-                {
-                    curso.AdicionarPessoa(pessoa);
-                    pessoa.CursosInscritos.Add(curso.NomeCurso);
-                    Console.WriteLine($"Curso:{curso.NomeCurso}");
-                    Data_Pessoa.SalvarDados(_pessoas.listPessoas);
-                    break;
-                }
+                var pessoa = _pessoas.GetPessoa(codigo);
+                if (pessoa == null)
+                    throw new KeyNotFoundException("Pessoa não encontrada.");
+
+                var curso = cursoBaseList.Find(c => c.NomeCurso.Equals(nomeCurso));
+                if (curso == null)
+                    throw new ExcecaoCurso.CursoNaoEncontrado(nomeCurso);
+
+                if (curso.Integrantes.Contains(pessoa))
+                    throw new ExcecaoCurso.PessoaCadastrada(pessoa.Nome);
+
+                curso.AdicionarPessoa(pessoa);
+                pessoa.CursosInscritos.Add(curso.NomeCurso);
+
+                Data_Pessoa.SalvarDados(_pessoas.listPessoas);
+                Data.SalvarDados(cursoBaseList);
+
+                Console.WriteLine($"Integrante {pessoa.Nome} adicionado ao curso {curso.NomeCurso}.");
             }
-            Data.SalvarDados(cursoBaseList);
+            catch (ExcecaoCurso.CursoNaoEncontrado ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            catch (ExcecaoCurso.PessoaCadastrada ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao adicionar integrante ao curso: {ex.Message}");
+            }
         }
 
-        public void RemoverParticipante(Pessoa pessoa, string nomeCurso)
+        public void RemoverParticipante(int codigoPessoa, string nomeCurso)
         {
-            foreach(var curso in cursoBaseList)
+            try
             {
-                if( curso.NomeCurso.ToLower() == nomeCurso.ToLower())
+                var pessoa = _pessoas.GetPessoa(codigoPessoa);
+                if (pessoa == null)
+                    throw new ExcecaoPessoa.PessoaNaoEncontrada(codigoPessoa);
+
+                var curso = cursoBaseList.FirstOrDefault(c => c.NomeCurso == nomeCurso);
+
+                if (curso == null)
+                {
+                    throw new ExcecaoCurso.CursoNaoEncontrado(nomeCurso);
+                }
+
+                if (curso.Integrantes.Contains(pessoa))
                 {
                     curso.Integrantes.Remove(pessoa);
+                    Console.WriteLine($"Participante {pessoa.Nome} removido com sucesso do curso {nomeCurso}.");
                 }
+                else
+                {
+                    Console.WriteLine($"A pessoa {pessoa.Nome} não está inscrita no curso {nomeCurso}.");
+                }
+
+
+                Data.SalvarDados(cursoBaseList);
             }
-            Data.SalvarDados(cursoBaseList);
+            catch (ExcecaoPessoa.PessoaNaoEncontrada ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            catch (ExcecaoCurso.CursoNaoEncontrado ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao remover participante do curso: {ex.Message}");
+            }
         }
 
+        public void RemoverCurso(string nomeCurso)
+        {
+            try
+            {
+                var curso = cursoBaseList.Find(c => c.NomeCurso.Equals(nomeCurso));
+                if (curso == null)
+                    throw new ExcecaoCurso.CursoNaoEncontrado(nomeCurso);
+                cursoBaseList.Remove(curso);
+            }
+            catch (ExcecaoCurso.CursoNaoEncontrado ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+        }
     }
 }

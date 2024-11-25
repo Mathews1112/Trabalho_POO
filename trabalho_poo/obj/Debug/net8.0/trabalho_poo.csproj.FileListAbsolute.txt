@@ -88,3 +88,39 @@ E:\Nova pasta\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\refint\trabalho_poo.dll
 E:\Nova pasta\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.pdb
 E:\Nova pasta\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.genruntimeconfig.cache
 E:\Nova pasta\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\ref\trabalho_poo.dll
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.exe
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.deps.json
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.runtimeconfig.json
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.dll
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.pdb
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\System.Text.Json.dll
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.csproj.AssemblyReference.cache
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.AssemblyInfoInputs.cache
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.AssemblyInfo.cs
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.csproj.CoreCompileInputs.cache
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.sourcelink.json
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho.07340B2C.Up2Date
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.dll
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\refint\trabalho_poo.dll
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.pdb
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.genruntimeconfig.cache
+E:\Nova pasta (3)\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\ref\trabalho_poo.dll
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.exe
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.deps.json
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.runtimeconfig.json
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.dll
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\trabalho_poo.pdb
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\bin\Debug\net8.0\System.Text.Json.dll
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.csproj.AssemblyReference.cache
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.AssemblyInfoInputs.cache
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.AssemblyInfo.cs
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.csproj.CoreCompileInputs.cache
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.sourcelink.json
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho.07340B2C.Up2Date
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.dll
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\refint\trabalho_poo.dll
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.pdb
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\trabalho_poo.genruntimeconfig.cache
+E:\Trabalho_POO_Final\Trabalho_POO\trabalho_poo\obj\Debug\net8.0\ref\trabalho_poo.dll

@@ -10,7 +10,7 @@ namespace trabalho_poo.Data_arquivo
 {
     internal class Data
     {
-        private static readonly string caminhoDoArquivo = "E:\\Nova pasta\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\cursos.json";
+        private static readonly string caminhoDoArquivo = "E:\\Trabalho_POO_Final\\Trabalho_POO\\trabalho_poo\\Banco_de_dados\\cursos.json";
 
         public static void SalvarDados(List<CursoBase> cursoBase) { 
             
